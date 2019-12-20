@@ -20,4 +20,5 @@
 #
 ##############################################################################
 
-import res_users
+from . import controllers
+from . import models

@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* single_login
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c-20180808\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-17 23:42+0000\n"
+"PO-Revision-Date: 2019-12-17 23:42+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: single_login
+#: code:addons/single_login/res_users.py:66
+#, python-format
+msgid "- User already logged in from another system"
+msgstr "- El Usuario ya ha iniciado sesión desde otro dispositivo"
+
+#. module: single_login
+#: code:addons/single_login/res_users.py:65
+#, python-format
+msgid "- Wrong login/password"
+msgstr "- Usuario/Contraseña incorrectos"
+
+#. module: single_login
+#: model:ir.model.fields,field_description:single_login.field_res_users_logged_in
+msgid "Logged in"
+msgstr "Está logueado?"
+
+#. module: single_login
+#: code:addons/single_login/res_users.py:64
+#, python-format
+msgid "Login failed due to one of the following reasons"
+msgstr "Acceso fallido debido a una de las siguientes razones"
+
+#. module: single_login
+#: code:addons/single_login/res_users.py:130
+#, python-format
+msgid "Multiple sessions are not allowed for security reasons!"
+msgstr "Por razones de seguridad las sesiones múltiples no están permitidas."
+
+#. module: single_login
+#: model:ir.model.fields,field_description:single_login.field_res_users_session_id
+msgid "Session ID"
+msgstr "ID de la sesión"
+
+#. module: single_login
+#: code:addons/single_login/res_users.py:129
+#, python-format
+msgid "User %s is already logged in into the system!"
+msgstr "El Usuario %s ya está logueado en el sistema!"
