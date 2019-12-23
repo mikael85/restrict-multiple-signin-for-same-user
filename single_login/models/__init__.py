@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
-from . import http
+# Do not load http. Hits serverwide behavior.
+# from . import http
 from . import ir_http
 from . import res_users

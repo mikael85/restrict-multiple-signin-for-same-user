@@ -32,10 +32,7 @@ Restrict Multiple Sign in for Same User
 =======================================
 
 Module to Restrict Multiple Sign in for Same User in Odoo.""",
-	'author': [
-		'Nevpro Business Solutions Pvt Ltd.',
-		'Idea Software, Micael Gómez',
-	],
+	'author': 'Nevpro Business Solutions Pvt Ltd., Idea Software, Micael Gómez',
 	'website': 'http://www.nevpro.co.in',
 	'depends': ['web','base'],
 	'data': [
